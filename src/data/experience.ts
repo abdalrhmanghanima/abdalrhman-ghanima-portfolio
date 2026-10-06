@@ -1,0 +1,92 @@
+import { ExperienceItem } from '../types';
+
+export const experiences: ExperienceItem[] = [
+  {
+    id: 'pioneers-solutions',
+    role: 'Flutter Developer Intern',
+    company: 'Pioneers Solutions',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Clean Architecture',
+      'State Management',
+      'Firebase',
+      'REST APIs',
+    ],
+    contributions: [
+      'Developed Flutter mobile applications following Clean Architecture and modern state management patterns.',
+      'Contributed to two production applications: HR Management System and a Billing & Sales Management application.',
+      'Implemented key business modules including attendance tracking, payroll calculations, employee records, and department management.',
+      'Engineered groups and permission-based authorization models and official holidays calendar scheduling.',
+      'Constructed robust authentication systems and comprehensive sales & billing operational workflows.',
+      'Built reusable, responsive UI components optimized for multi-screen mobile experiences.',
+    ],
+  },
+  {
+    id: 'nami-software',
+    role: 'Flutter Developer Intern',
+    company: 'Nami Software Development',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Clean Architecture',
+      'SOLID',
+      'Riverpod',
+      'Firebase',
+      'REST APIs',
+      'Google Maps',
+      'FCM',
+    ],
+    contributions: [
+      'Independently architected and rebuilt the Circle Mart e-commerce application from scratch using Clean Architecture and SOLID principles without altering the existing codebase.',
+      'Implemented Riverpod state management for reactive, scalable, and testable application state.',
+      'Integrated Firebase Authentication with phone OTP verification for secure user onboarding.',
+      'Connected REST APIs and integrated Google Maps for delivery location selection and tracking.',
+      'Delivered end-to-end user workflows including catalog browsing, live search, favorites wishlist, persistent cart, checkout, and order history.',
+      'Configured Firebase Cloud Messaging (FCM) for real-time notifications and conducted performance optimization across user flows.',
+    ],
+  },
+  {
+    id: 'nti',
+    role: 'Flutter Developer Intern',
+    company: 'National Telecommunication Institute (NTI)',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Clean Architecture',
+      'BLoC',
+      'Firebase',
+      'REST APIs',
+    ],
+    contributions: [
+      'Completed intensive Flutter/Dart technical training covering Clean Architecture, BLoC pattern, Firebase, and REST API integration.',
+      'Practiced building robust cross-platform mobile architectures and data persistence.',
+      'Built 3 practical hands-on applications to reinforce core development patterns: BMI App, Movies App, and Todo App.',
+    ],
+    appsBuilt: ['BMI App', 'Movies App', 'Todo App'],
+  },
+  {
+    id: 'route-academy',
+    role: 'Flutter Developer Diploma',
+    company: 'Route Academy',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'State Management',
+      'API Integration',
+      'Mobile UI',
+    ],
+    contributions: [
+      'Completed a comprehensive 5-month Flutter & Dart diploma focused on real-world mobile app engineering.',
+      'Mastered core Flutter widgets, asynchronous Dart, API networking, and complex UI layouts.',
+      'Built 5 distinct applications applying industry practices: Islamic App, Evently App, Movies App, E-commerce App, and News App.',
+    ],
+    appsBuilt: [
+      'Islamic App',
+      'Evently App',
+      'Movies App',
+      'E-commerce App',
+      'News App',
+    ],
+  },
+];
