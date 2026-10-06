@@ -124,7 +124,7 @@ export const projects: Project[] = [
       'Efficient API pagination and infinite scrolling for product catalogs',
       'Modular, reusable UI components built for maintainability',
     ],
-    githubUrl: 'https://github.com/abdalrhmanghanima/fork-up',
+    githubUrl: 'https://github.com/abdalrhmanghanima/Fork_Up',
     layoutDirection: 'image-left',
     screenshots: [
       {
@@ -173,7 +173,7 @@ export const projects: Project[] = [
       'Secure authentication with enterprise data sync via Firebase',
       'Responsive, high-density mobile interface designed for HR operators',
     ],
-    githubUrl: 'https://github.com/abdalrhmanghanima/hr-management-system',
+    githubUrl: 'https://github.com/abdalrhmanghanima/hr_management_system',
     layoutDirection: 'image-right',
     screenshots: [
       {
