@@ -19,10 +19,10 @@ export const AboutSection: React.FC = () => {
 
         <div className="about-grid">
           {/* Main Narrative Card */}
-          <div className="about-card">
+          <div data-reveal className="about-card reveal-fade-up">
             <p className="about-paragraph">
               I am a <strong>Junior Flutter Developer</strong> with hands-on
-              experience building <strong>10+ cross-platform mobile applications</strong> using
+              experience building <strong>scalable cross-platform mobile applications</strong> using
               Flutter and Dart. I specialize in <strong>Clean Architecture</strong>,{' '}
               <strong>SOLID principles</strong>, modern state management (Riverpod and
               BLoC), Firebase, REST APIs, and responsive UI.
@@ -78,7 +78,7 @@ export const AboutSection: React.FC = () => {
           </div>
 
           {/* Sidebar Cards */}
-          <aside className="about-sidebar">
+          <aside data-reveal data-reveal-delay="150" className="about-sidebar reveal-fade-up">
             <div className="info-box">
               <h3 className="info-box-title">Languages</h3>
               <div className="language-list">
@@ -99,8 +99,8 @@ export const AboutSection: React.FC = () => {
                   <span className="language-level">Flutter & Dart</span>
                 </div>
                 <div className="language-item">
-                  <span className="language-name">Mobile Apps Built</span>
-                  <span className="language-level">10+ Applications</span>
+                  <span className="language-name">Architecture</span>
+                  <span className="language-level">Clean Architecture</span>
                 </div>
                 <div className="language-item">
                   <span className="language-name">State Management</span>

@@ -36,9 +36,9 @@ export const SkillsSection: React.FC = () => {
           description="A categorized overview of the engineering paradigms, libraries, and developer tools I utilize to deliver robust mobile applications."
         />
 
-        <div className="skills-grid">
+        <div className="skills-grid stagger-group">
           {skillCategories.map((category) => (
-            <div key={category.title} className="skill-category-card">
+            <div key={category.title} data-reveal className="skill-category-card reveal-fade-up">
               <div className="skill-category-header">
                 <div className="skill-category-icon" aria-hidden="true">
                   {getCategoryIcon(category.iconName)}

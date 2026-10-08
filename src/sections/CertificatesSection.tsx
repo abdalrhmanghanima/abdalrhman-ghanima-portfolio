@@ -53,9 +53,9 @@ export const CertificatesSection: React.FC = () => {
           description="Formal diplomas and institute certifications demonstrating comprehensive mobile development training and real-world project execution."
         />
 
-        <div className="certificates-grid">
+        <div className="certificates-grid stagger-group">
           {certificates.map((cert, idx) => (
-            <article key={cert.id} className="certificate-card">
+            <article key={cert.id} data-reveal className="certificate-card reveal-fade-up">
               <div
                 className="cert-thumbnail-box"
                 onClick={() => handleOpenCertificate(idx)}
@@ -92,7 +92,7 @@ export const CertificatesSection: React.FC = () => {
                     <span className="badge badge-surface">Date: {cert.date}</span>
                   )}
                   {cert.score && (
-                    <span className="badge badge-cyan">Score: {cert.score}</span>
+                    <span className="badge badge-burgundy">Score: {cert.score}</span>
                   )}
                   {cert.hours && (
                     <span className="badge badge-surface">{cert.hours}</span>

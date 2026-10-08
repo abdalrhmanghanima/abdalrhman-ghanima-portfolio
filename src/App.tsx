@@ -1,4 +1,5 @@
 import React from 'react';
+import { useScrollReveal } from './hooks/useScrollReveal';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './sections/HeroSection';
 import { AboutSection } from './sections/AboutSection';
@@ -16,6 +17,8 @@ import './styles/components.css';
 import './styles/sections.css';
 
 export const App: React.FC = () => {
+  useScrollReveal();
+
   return (
     <>
       <Navbar />

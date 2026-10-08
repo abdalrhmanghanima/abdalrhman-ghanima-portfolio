@@ -12,9 +12,9 @@ export const ExperienceSection: React.FC = () => {
           description="Hands-on software development experience across real-world enterprise applications, client solutions, and rigorous engineering programs."
         />
 
-        <div className="experience-timeline">
+        <div className="experience-timeline stagger-group">
           {experiences.map((exp) => (
-            <div key={exp.id} className="timeline-item">
+            <div key={exp.id} data-reveal className="timeline-item reveal-fade-up">
               <div className="timeline-node" aria-hidden="true" />
 
               <article className="timeline-card">

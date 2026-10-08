@@ -3,7 +3,6 @@ import { siteConfig } from '../config/siteConfig';
 import { Button } from '../components/Button';
 import {
   DownloadIcon,
-  SmartphoneIcon,
   ArrowUpRightIcon,
 } from '../components/Icons';
 
@@ -12,9 +11,9 @@ export const HeroSection: React.FC = () => {
     <section id="hero" className="hero-section" aria-label="Introduction">
       <div className="container hero-grid">
         {/* Left: Text & CTAs */}
-        <div className="hero-content">
+        <div data-reveal className="hero-content reveal-fade-up">
           <div className="hero-badge-wrap">
-            <span className="badge badge-cyan">
+            <span className="badge badge-burgundy">
               <span className="badge-dot" />
               Flutter Developer &bull; Mobile Engineering
             </span>
@@ -71,7 +70,11 @@ export const HeroSection: React.FC = () => {
 
         {/* Right: Real Profile Image Frame */}
         <div className="hero-visual">
-          <div className="hero-portrait-card">
+          <div
+            data-reveal
+            data-reveal-delay="150"
+            className="hero-portrait-card reveal-scale"
+          >
             <div className="hero-image-wrapper">
               <img
                 src={siteConfig.profile.imagePath}
@@ -79,14 +82,6 @@ export const HeroSection: React.FC = () => {
                 className="hero-portrait-img"
                 loading="eager"
               />
-            </div>
-
-            <div className="hero-floating-badge">
-              <SmartphoneIcon size={24} className="badge-icon" />
-              <div>
-                <div className="floating-badge-number">10+</div>
-                <div className="floating-badge-text">Mobile Apps Built</div>
-              </div>
             </div>
           </div>
         </div>

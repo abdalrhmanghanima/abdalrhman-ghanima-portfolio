@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   title: 'Flutter Developer',
   positioning: 'Flutter Developer specializing in scalable mobile applications.',
   summary:
-    'I am a Junior Flutter Developer with hands-on experience building 10+ cross-platform mobile applications using Flutter and Dart. I specialize in Clean Architecture, SOLID principles, modern state management, Firebase, REST APIs, and responsive UI. I focus on building scalable, maintainable, and high-performance mobile applications and enjoy turning ideas and business requirements into polished real-world products.',
+    'I am a Junior Flutter Developer with hands-on experience building cross-platform mobile applications using Flutter and Dart. I specialize in Clean Architecture, SOLID principles, modern state management, Firebase, REST APIs, and responsive UI. I focus on building scalable, maintainable, and high-performance mobile applications and enjoy turning ideas and business requirements into polished real-world products.',
   contact: {
     email: 'abdoghanima2005@gmail.com',
     phone: PHONE_NUMBER,

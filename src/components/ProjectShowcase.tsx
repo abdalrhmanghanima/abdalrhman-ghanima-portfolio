@@ -30,7 +30,7 @@ export const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
       aria-labelledby={`project-title-${project.id}`}
     >
       {/* Visual Mockup & Screenshots Gallery */}
-      <div className="project-visual-col">
+      <div data-reveal className="project-visual-col reveal-scale">
         <div
           className="mockup-frame"
           onClick={() => onOpenLightbox(projectIndex, selectedScreenshotIndex)}
@@ -74,7 +74,7 @@ export const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
       </div>
 
       {/* Editorial Content */}
-      <div className="project-content-col">
+      <div data-reveal data-reveal-delay="100" className="project-content-col reveal-fade-up">
         <div className="project-meta-top">
           <span className="project-index">CASE STUDY {project.number}</span>
           <span className="badge badge-surface">Mobile App</span>

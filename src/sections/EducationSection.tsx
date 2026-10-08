@@ -15,7 +15,7 @@ export const EducationSection: React.FC = () => {
 
         <div className="education-wrapper">
           {educationList.map((edu, idx) => (
-            <article key={idx} className="education-card">
+            <article key={idx} data-reveal className="education-card reveal-fade-up">
               <div className="education-icon-box" aria-hidden="true">
                 <AcademicCapIcon size={26} />
               </div>

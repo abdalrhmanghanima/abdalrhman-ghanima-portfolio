@@ -22,7 +22,7 @@ export const ContactSection: React.FC = () => {
 
         <div className="contact-grid">
           {/* Direct Channels */}
-          <div className="contact-info-col">
+          <div data-reveal className="contact-info-col reveal-fade-up">
             <p className="contact-info-desc">
               Whether you have an upcoming mobile project, want to discuss
               architecture and Flutter engineering, or have an open position, feel
@@ -109,7 +109,7 @@ export const ContactSection: React.FC = () => {
           </div>
 
           {/* Form */}
-          <div className="contact-form-col">
+          <div data-reveal data-reveal-delay="150" className="contact-form-col reveal-fade-up">
             <ContactForm />
           </div>
         </div>
